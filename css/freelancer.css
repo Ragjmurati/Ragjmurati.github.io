@@ -4,6 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/* Potential Hex Colors
+    #9A0000 - Red
+*/
+
 body {
     overflow-x: hidden;
 }
@@ -22,7 +26,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #9A0000;
 }
 
 h1,
@@ -63,7 +67,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #9A0000;
 }
 
 hr.star-primary {
@@ -82,7 +86,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #9A0000;
 }
 
 header .container {
@@ -181,7 +185,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #9A0000;
 }
 
 @media(max-width:767px) {
@@ -265,7 +269,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #9A0000;
     background: #fff;
 }
 
@@ -318,7 +322,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color:#9A0000;
 }
 
 form .row:first-child .floating-label-form-group {
