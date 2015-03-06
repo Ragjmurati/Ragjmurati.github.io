@@ -141,8 +141,9 @@ header .intro-text .skills {
         -moz-transition: all .3s;
         transition: all .3s;
     }
+    
     .navbar-fixed-top .navbar-brand:hover,
-    .navbar-fixed-top .navbar-brand:focus{
+    .navbar-fixed-top .navbar-brand:focus {
         color:#9A0000;
     }
 
@@ -152,7 +153,12 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+
     }
+}
+
+.navbar-header .navbar-brand:hover {
+    color:#9A0000;
 }
 
 .navbar {
@@ -176,6 +182,10 @@ header .intro-text .skills {
 
 .navbar .navbar-nav li a:hover {
     color:#9A0000;
+}
+
+.navbar .navbar-nav li a:visited {
+    color:#fff;
 }
 
 .navbar-default,
