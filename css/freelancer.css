@@ -388,7 +388,8 @@ footer .footer-below {
     outline: 0;
 }
 
-.btn-success {
+.btn-success, 
+.btn-success:visited {
     background-color:#9A0000;
     border-color:#9A0000;
 }
